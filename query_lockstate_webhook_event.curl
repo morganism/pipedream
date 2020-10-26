@@ -1,0 +1,5 @@
+QUERY=`cat lockstate_webhook_event.sql`
+curl -H "Authorization: Bearer ${PIPEDREAM_API_KEY}" \
+  -H "Content-Type: application/json" \
+  -d "{\"query\": \"${QUERY}\"}" \
+  https://rt.pipedream.com/sql
