@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morganism/pipedream.git"
+  },
+  "author": "morgan.sziraki@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morganism/pipedream/issues"
+  },
+  "homepage": "https://github.com/morganism/pipedream#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
